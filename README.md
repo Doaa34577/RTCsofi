@@ -1,1 +1,3 @@
 # RTCsofi
+
+some idea
