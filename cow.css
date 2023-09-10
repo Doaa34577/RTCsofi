@@ -1,0 +1,101 @@
+/* Web Programming Step by Step, Homework 9 (To-Do List) solution
+   Please do not distribute! */
+
+body, input, select, option, button, a {
+	color: #005AB4;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+}
+
+body, h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#error {
+	color: red;
+	font-weight: bold;
+}
+
+.headfoot {
+	background-color: #005AB4;
+	color: white;
+	padding: 0.5em;
+}
+
+h1 img {
+	float: left;
+	margin-right: 1em;
+}
+
+#main {
+	margin: 2em;
+}
+#todolist {
+	list-style-type: none;
+	padding: 0;
+}
+
+#todolist li {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+#todolist li:last-child {
+	border-bottom: none;
+}
+
+#todolist li:hover {
+	background-color: #f5f5f5;
+}
+
+#todolist li.completed {
+	text-decoration: line-through;
+	color: #999;
+}
+
+/* input desgin */
+input {
+	padding: 10px;
+	width: 50%;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	outline: none;
+	margin-bottom: 10px;
+}
+
+input:focus {
+	border-color: #007bff;
+	box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button CSS */
+
+#buttons {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+button {
+	padding: 10px 20px;
+	font-size: 14px;
+	border: none;
+	border-radius: 5px;
+	background-color: #007bff;
+	color: #fff;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+button#delete {
+	background-color: #dc3545;
+}
+
+button:hover {
+	background-color: #0056b3;
+}
+
+button#delete:hover {
+	background-color: #c82333;
+}
